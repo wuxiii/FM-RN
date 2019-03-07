@@ -3,19 +3,27 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "preinstall": "cd ../core && npm install",
+    "postinstall": "cd ../core && npm run build",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "ios": "react-native run-ios --simulator \"iPhone X\"",
     "android": "react-native run-android"
   },
   "dependencies": {
-    "@types/react": "^16.8.6",
-    "@types/react-native": "^0.57.38",
+    "core": "file:../core",
     "react": "16.6.3",
     "react-native": "0.58.6",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-navigation": "^3.3.2",
+    "react-redux": "^6.0.1",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
+    "@types/react": "^16.8.6",
+    "@types/react-native": "^0.57.38",
+    "@types/react-navigation": "^3.0.4",
+    "@types/react-redux": "^7.0.2",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "24.1.0",
     "jest": "24.1.0",

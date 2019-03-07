@@ -10,6 +10,10 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
+import Main from './app/Main'
+// import Main from './js/screens/demo/FlatListDemo'
+export default Main;
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
@@ -18,7 +22,7 @@ const instructions = Platform.select({
 });
 
 type Props = {};
-export default class App extends Component<Props> {
+class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
@@ -48,3 +52,4 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
