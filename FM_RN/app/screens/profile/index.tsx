@@ -3,11 +3,11 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 
 
 type Props = {};
-export default class Player extends Component<Props>{
+export default class Profile extends Component<Props>{
     render() {
         return (
           <View style={styles.container}>
-            <Text style={styles.welcome}>Welcome to PLAYER!</Text>
+            <Text style={styles.welcome}>Welcome to Profile!</Text>
           </View>
         );
       }

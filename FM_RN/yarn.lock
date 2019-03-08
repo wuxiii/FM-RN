@@ -610,6 +610,13 @@
   version "15.7.0"
   resolved "http://registry.npm.taobao.org/@types/prop-types/download/@types/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
 
+"@types/react-native-vector-icons@^4.6.4":
+  version "4.6.4"
+  resolved "http://registry.npm.taobao.org/@types/react-native-vector-icons/download/@types/react-native-vector-icons-4.6.4.tgz#83c2d88f0c2615a44b9059eb75c11f92702c1ee2"
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+
 "@types/react-native@*", "@types/react-native@^0.57.38":
   version "0.57.38"
   resolved "http://registry.npm.taobao.org/@types/react-native/download/@types/react-native-0.57.38.tgz#2ff6ed1a7cc207afbfd87bf496513d96931d1446"
@@ -2982,6 +2989,10 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+keymirror@^0.1.1:
+  version "0.1.1"
+  resolved "http://registry.npm.taobao.org/keymirror/download/keymirror-0.1.1.tgz#918889ea13f8d0a42e7c557250eee713adc95c35"
+
 kind-of@^1.1.0:
   version "1.1.0"
   resolved "http://registry.npm.taobao.org/kind-of/download/kind-of-1.1.0.tgz#140a3d2d41a36d2efcfa9377b62c24f8495a5c44"
@@ -3103,7 +3114,7 @@ lodash.throttle@^4.1.1:
   version "4.1.1"
   resolved "http://registry.npm.taobao.org/lodash.throttle/download/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
 
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
+lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.11"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -4175,6 +4186,22 @@ react-native-typescript-transformer@^1.2.12:
     semver "^5.4.1"
     source-map "^0.5.6"
 
+react-native-vector-icons@^6.3.0:
+  version "6.3.0"
+  resolved "http://registry.npm.taobao.org/react-native-vector-icons/download/react-native-vector-icons-6.3.0.tgz#47a0c9e04e045c0ea0b9ca450e2af84e45c07b3f"
+  dependencies:
+    lodash "^4.0.0"
+    prop-types "^15.6.2"
+    yargs "^8.0.2"
+
+react-native-video@^4.4.0:
+  version "4.4.0"
+  resolved "http://registry.npm.taobao.org/react-native-video/download/react-native-video-4.4.0.tgz#18012cb8ad90aac42be3d04c92430f820f3ab03b"
+  dependencies:
+    keymirror "^0.1.1"
+    prop-types "^15.5.10"
+    shaka-player "^2.4.4"
+
 react-native@0.58.6:
   version "0.58.6"
   resolved "http://registry.npm.taobao.org/react-native/download/react-native-0.58.6.tgz#a6d273cd2f51b0e3b141dad5f19622e0000497b3"
@@ -4673,6 +4700,10 @@ setimmediate@^1.0.5:
 setprototypeof@1.1.0:
   version "1.1.0"
   resolved "http://registry.npm.taobao.org/setprototypeof/download/setprototypeof-1.1.0.tgz#d0bd85536887b6fe7c0d818cb962d9d91c54e656"
+
+shaka-player@^2.4.4:
+  version "2.4.7"
+  resolved "http://registry.npm.taobao.org/shaka-player/download/shaka-player-2.4.7.tgz#8532e53ba7d8781b0785b552c7c68681c13c3206"
 
 shebang-command@^1.2.0:
   version "1.2.0"
@@ -5407,6 +5438,24 @@ yargs@^12.0.2:
     which-module "^2.0.0"
     y18n "^3.2.1 || ^4.0.0"
     yargs-parser "^11.1.1"
+
+yargs@^8.0.2:
+  version "8.0.2"
+  resolved "http://registry.npm.taobao.org/yargs/download/yargs-8.0.2.tgz#6299a9055b1cefc969ff7e79c1d918dceb22c360"
+  dependencies:
+    camelcase "^4.1.0"
+    cliui "^3.2.0"
+    decamelize "^1.1.1"
+    get-caller-file "^1.0.1"
+    os-locale "^2.0.0"
+    read-pkg-up "^2.0.0"
+    require-directory "^2.1.1"
+    require-main-filename "^1.0.1"
+    set-blocking "^2.0.0"
+    string-width "^2.0.0"
+    which-module "^2.0.0"
+    y18n "^3.2.1"
+    yargs-parser "^7.0.0"
 
 yargs@^9.0.0:
   version "9.0.1"
